@@ -1,0 +1,25 @@
+{
+  "name": "chartline",
+  "version": "1.0.0",
+  "description": "Deterministic ASCII charts in the terminal from CSV or JSONL input",
+  "type": "module",
+  "bin": {
+    "chartline": "bin/chartline.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ascii",
+    "chart",
+    "terminal",
+    "bar",
+    "sparkline",
+    "csv",
+    "jsonl"
+  ],
+  "license": "MIT"
+}
